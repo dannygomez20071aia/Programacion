@@ -2,10 +2,12 @@
 #contador 
 #desglose
 #condicional
-frase = "El dia de hoy esta muy nublado y mucho calor "
+frase = input("Escribe tu frase aquì:")
+vocales = "aeiou"
+contador = 0
 
-contador = 0 
-for vocal in frase:
-    if vocal == "a":
+for letra in frase:
+    if letra in vocales:
         contador += 1
-print(" El total de voacales es:",contador)
+
+print("-- La cantidad e vocales que contiene tu palabra es:", contador)
