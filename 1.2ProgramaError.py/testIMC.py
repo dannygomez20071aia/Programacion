@@ -1,0 +1,21 @@
+import calculos
+
+resultado1=calculos.determinarResultadosIMC(0)
+print(f"imc: 0 => {resultado1}")
+resultado2=calculos.determinarResultadosIMC(16)
+print(f"imc: 16 => {resultado2}")
+resultado3=calculos.determinarResultadosIMC(16.9)
+print(f"imc: 16.9 => {resultado3}")
+resultado4=calculos.determinarResultadosIMC(17)
+print(f"imc: 17 => {resultado4}")
+resultado5=calculos.determinarResultadosIMC(35)
+print(f"imc: 35 => {resultado5}")
+resultado6=calculos.determinarResultadosIMC(40)
+print(f"imc: 40 => {resultado6}")
+resultado7=calculos.determinarResultadosIMC(27.5)
+print(f"imc: 27.5 => {resultado7}")
+resultado8=calculos.determinarResultadosIMC(45)
+print(f"imc: 45 => {resultado8}")
+resultado9=calculos.determinarResultadosIMC(-2)
+print(f"imc: -2 => {resultado9}")
+
